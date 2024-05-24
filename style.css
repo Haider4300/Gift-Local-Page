@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-left-side {
+  display: flex;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.bd-text {
+  margin-right: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26.13px;
+  color: black;
+}
+.back-btn {
+  margin-left: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.gift-card-section {
+  padding: 24px 20px 24px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #070d20 0%, #2d354e 61.68%);
+  gap: 12px;
+}
+.merchant-text {
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 27px;
+  color: white;
+  letter-spacing: -0.32px;
+}
+.gr-text {
+  color: #0ecf97;
+  font-weight: 700;
+}
+.gcd-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.btn-secondary-custom {
+  width: 284px;
+  /* height: 37px; */
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  border: none;
+  padding-left: 35px;
+}
+.nav-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.btn {
+  padding: 8px, 14px, 8px, 14px !important;
+}
+
+.navigation-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  background-image: url("./assets/search\ container-bg.svg");
+  height: 118px;
+}
+.nav-input-wrapper {
+  position: relative;
+}
+.nav-input {
+  width: 284px;
+  /* height: 38px; */
+  padding: 8px 13px 8px 35px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  border-radius: 12px;
+  color: black;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.merchant-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 20px;
+  padding: 10px 100px;
+}
+.all-merchant-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+.merchant-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+  width: 100%;
+  height: 260px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-size: cover;
+}
+.img-1 {
+  background-image: url("./assets/image\ restaurants.svg");
+}
+.img-2 {
+  background-image: url("./assets/image\ hotels.svg");
+}
+.img-3 {
+  background-image: url("./assets/image\ golf.svg");
+}
+.img-4 {
+  background-image: url("./assets/image\ entertainment.svg");
+}
+.img-5 {
+  background-image: url("./assets/image\ health\ wellness.svg");
+}
+.img-6 {
+  background: linear-gradient(180deg, #070d20 16.72%, #2e364f 100%);
+}
+
+.mi-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 29.24px;
+}
+.merchant-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#footer .main-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+#footer .User-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  width: 281px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #0ecf97;
+}
+#footer .User-list-item-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  width: 281px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #fff;
+}
+#footer .main-button-container {
+  padding: 18px 18px 18px 18px;
+}
+#footer .footer-main {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding: 40px;
+}
+#footer .card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: white;
+} /*# sourceMappingURL=style.css.map */
+.footer-wrapper {
+  background: linear-gradient(180deg, #070d20 0%, #2d354e 61.68%);
+  /* height: 354px; */
+}
+
+@media (max-width: 1440px) {
+  .merchant-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1200px) {
+  .abc {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 1024px) {
+  .merchant-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 800px) {
+  .merchant-container {
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 50px;
+  }
+  .footer-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .merchant-text{
+    font-size: 22px;
+  }
+  .navigation-section{
+    display: flex;
+   flex-direction: column; 
+  }
+  #footer .footer-main {
+    gap: 60px;
+  }
+}
+@media (max-width: 500px) {
+  .merchant-container {
+    grid-template-columns: 1fr;
+    padding: 10px 30px;
+  }
+  .navigation-section {
+    flex-direction: column;
+  }
+  .main-nav {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .logo {
+    width: 111.25px;
+  }
+  .bd-text {
+    margin-right: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: black;
+  }
+  .gift-logo {
+    width: 20px;
+  }
+  .back-btn {
+    width: 22.5px;
+  }
+  .gcd-text {
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: -0.32px;
+  }
+  .gc-logo {
+    width: 44px;
+  }
+  .User-list-item {
+    width: 182px !important;
+    font-size: 12px !important;
+  }
+  .User-list-item-area {
+    width: 182px !important;
+    font-size: 12px !important;
+  }
+  .footer-main {
+    gap: 30px !important;
+  }
+  .footer-content-heading {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .footer-inner-content {
+    font-size: 12px;
+  }
+  .nav-input{
+    width: 220px;
+  }
+  .btn-secondary-custom{
+    width: 180px;
+  }
+  .footer-left-side {
+    gap: 28px !important;
+  }
+  .merchant-text{
+    font-size: 20px;
+  }
+  .footer-inner-text{
+    font-size: 12px;
+  }
+  .card-info{
+    font-size: 12px;
+  }
+}
+
+.footer-left-side {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
